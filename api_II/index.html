@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fetching api</title>
+    <style>
+        #apiContainer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: 25%;
+            width: 50vw;
+            min-height: 20vh;
+            background-color: silver;
+        }
+        #img{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 1px solid black;
+            overflow: hidden;
+            background-position: center;
+            background-size: cover;
+        }
+        #btn{
+            width: 150px;
+            height: 30px;
+            border-radius: 15px;
+            border: none;
+            background-color: skyblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 25%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>fetching api II</h2>
+
+    <!-- fetching and showing data on the dom -->
+    <h2>Show api content on the dom</h2>
+    <div id="apiContainer">
+        <div id="image"></div>
+        <div id="firstName"></div>
+        <div id="lastName"></div>
+        <div id="email"></div>
+    </div>
+    <!-- click effect -->
+    <button id="btn">show person</button>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
